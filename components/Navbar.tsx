@@ -60,7 +60,7 @@ const Navbar = () => {
                   key="resume"
                   style={{ border: "1px solid", borderRadius: "2px" }}
                   className={`btn btn-outline font-dmono regular-14 ${
-                    header ? "text-white hover:bg-background-50" : "text-white hover:bg-stone-100 hover:bg-opacity-40" 
+                    header ? "text-black hover:text-white hover:bg-background-50" : "text-white hover:bg-stone-100 hover:bg-opacity-40" 
                   }`}
                   target="_blank"
                 >
