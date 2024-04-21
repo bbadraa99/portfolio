@@ -98,7 +98,7 @@ const Navbar = () => {
             </label>
           </div>
           {isClick && (
-            <div className="absolute right-10 bg-white bg-opacity-50 z-50 rounded-md lg:hidden">
+            <div className="absolute right-10 bg-stone-400 bg-opacity-80 z-50 rounded-md lg:hidden">
               <div className="h-full flex items-center justify-center">
                 <ul className="text-white">
                   {/* Render menu items */}
@@ -106,6 +106,7 @@ const Navbar = () => {
                     <li
                       key={link.key}
                       className="py-4 px-6 hover:bg-gray-800 cursor-pointer regular-16 font-dmono"
+                      onClick={() => setisClick(!isClick)}
                     >
                       <Link href={link.href}>{link.label}</Link>
                     </li>
@@ -116,6 +117,7 @@ const Navbar = () => {
                       key="resume"
                       style={{ border: "1px solid", borderRadius: "2px" }}
                       className="px-6 btn btn-outline font-dmono regular-16 text-white"
+                      onClick={() => setisClick(!isClick)}
                     >
                       Resume
                     </Link>

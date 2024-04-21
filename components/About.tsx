@@ -17,9 +17,9 @@ const About = () => {
         style={{ textAlign: "center" }}
       >
         
-        <p className="regular-24 font-dmono pt-16">Hello, my name is</p>
-        <h1 className="bold-72 font-dmono">Badraa Bat-Ulzii</h1>
-        <h2 className="regular-24 font-dmono">
+        <p className="regular-16 md:regular-24 font-dmono pt-16">Hello, my name is</p>
+        <h1 className="bold-52 md:bold-72 font-dmono">Badraa Bat-Ulzii</h1>
+        <h2 className="regular-16 md:regular-24 font-dmono">
           <span>{text}</span>
           <Cursor cursorStyle="_" />
         </h2>
