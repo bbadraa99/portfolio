@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-const ProjectMaker = (props) => {
+const ProjectMaker = (props: { name: any; description: any; path: any; href: any; }) => {
   const { name, description, path, href } = props;
 
   return (
