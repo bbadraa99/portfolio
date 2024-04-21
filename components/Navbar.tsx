@@ -60,7 +60,7 @@ const Navbar = () => {
                   key="resume"
                   style={{ border: "1px solid", borderRadius: "2px" }}
                   className={`btn btn-outline font-dmono regular-14 ${
-                    header ? "text-black hover:bg-background-50" : "text-white hover:bg-stone-100 hover:bg-opacity-40" 
+                    header ? "text-white hover:bg-background-50" : "text-white hover:bg-stone-100 hover:bg-opacity-40" 
                   }`}
                   target="_blank"
                 >
@@ -98,7 +98,7 @@ const Navbar = () => {
             </label>
           </div>
           {isClick && (
-            <div className="absolute right-10 bg-stone-400 bg-opacity-80 z-50 rounded-md lg:hidden">
+            <div className="absolute right-12 px-10 py-5 bg-stone-400 bg-opacity-80 z-50 rounded-md lg:hidden">
               <div className="h-full flex items-center justify-center">
                 <ul className="text-white">
                   {/* Render menu items */}

@@ -21,7 +21,7 @@ const Description = () => {
             As a senior student at UNIST in South Korea, I bring a fresh perspective and innovative solutions to the table.
             <br/>
             <br />
-            Checkout my full resume! 
+            Check out my full resume! 
           </p>
           <br />
           <Link href="/resume.pdf" target="_blank">
