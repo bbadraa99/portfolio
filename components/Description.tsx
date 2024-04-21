@@ -25,7 +25,7 @@ const Description = () => {
           </p>
           <br />
           <Link href="/resume.pdf" target="_blank">
-            <button className="btn btn-outline font-dmono regular-18 text-stone-300 hover:bg-stone-100 hover:bg-opacity-40">Resume</button>
+            <button className="btn btn-outline font-dmono regular-18 text-stone-300 hover:text-white hover:bg-stone-100 hover:bg-opacity-40">Resume</button>
           </Link>
           
         </div>
