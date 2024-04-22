@@ -9,7 +9,7 @@ const Experiences = () => {
 
   return (
     <div id="experiences" className=' w-full xl:w-3/4 2xl:w-[1200px] mx-auto py-20'>
-      <h1 className="bold-32 center pb-20 text-white font-dmono">02. Experiences</h1>
+      <h1 className="bold-28 flex items-end justify-center pb-20 text-white font-dmono">02.&nbsp;<span className='bold-32'> Experiences</span></h1>
       <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
         <li>
           <hr className='bg-white'/>

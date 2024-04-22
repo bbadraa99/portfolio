@@ -6,7 +6,7 @@ import Link from "next/link";
 const Description = () => {
   return (
     <div id="about" className="text-white flex-col sm:px-10 md:px-20 w-full xl:w-[1000px] mx-auto py-20">
-      <h1 className="font-dmono bold-26 mb-5 justify-start">01. <span className="text-white bold-32">About me</span></h1>
+      <h1 className="font-dmono bold-26 mb-5">01. <span className="text-white bold-32">About me</span></h1>
       <div className="flex flex-col md:flex-row gap-4">
         <div className="text-stone-200 my-5 flex-col w-full md:w-1/2 text-left  font-dmono">
           <p className="regular-18">
