@@ -103,16 +103,19 @@ const Navbar = () => {
                 <ul className="text-black">
                   {/* Render menu items */}
                   {NAV_LINKS.map((link) => (
-                    <li
-                      key={link.key}
-                      className="py-2 px-3 hover:bg-gray-800 hover:text-white cursor-pointer regular-16 font-dmono"
-                    >
-                      <Link href={link.href}>{link.label}</Link>
+                    <li key={link.key} className="p-3">
+                      <Link 
+                        key={link.key}
+                        className="p-3 regular-16 font-dmono cursor-pointer hover:bg-gray-800 hover:text-white"
+                        href={link.href}>
+                        {link.label}
+                      </Link>
                     </li>
                   ))}
-                  <li className="py-2">
+                  <li className="px-3">
                     <Link
                       href="/resume.pdf"
+                      target="_blank"
                       key="resume"
                       style={{ border: "1px solid", borderRadius: "2px" }}
                       className="px-6 btn btn-outline font-dmono regular-16 text-black"
