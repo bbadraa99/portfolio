@@ -106,7 +106,6 @@ const Navbar = () => {
                     <li
                       key={link.key}
                       className="py-2 px-3 hover:bg-gray-800 hover:text-white cursor-pointer regular-16 font-dmono"
-                      onClick={() => setisClick(!isClick)}
                     >
                       <Link href={link.href}>{link.label}</Link>
                     </li>
@@ -117,7 +116,6 @@ const Navbar = () => {
                       key="resume"
                       style={{ border: "1px solid", borderRadius: "2px" }}
                       className="px-6 btn btn-outline font-dmono regular-16 text-black"
-                      onClick={() => setisClick(!isClick)}
                     >
                       Resume
                     </Link>
