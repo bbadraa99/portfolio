@@ -20,9 +20,9 @@ const Experiences = () => {
             onMouseEnter={() => setHoveredExperience('1')}
             onMouseLeave={() => setHoveredExperience('empty')}>
             <time className="font-mono italic text-white">2024.03 - Present</time>
-            <div className="bold-18 text-stone-200 font-dmono">Android Studio Developer</div>
-            <h3 className='regular-16 text-stone-200 font-dmono pb-2'>~ Perception Learning Lab, UNIST</h3>
-            <p className='text-justify text-black'>Extend backend features with Kotlin, seamlessly integrating into the Eye Training app. Enhance data management by integrating MongoDB, ensuring efficiency. Conduct rigorous testing to ensure stability across various devices.</p>
+            <div className="bold-18 text-stone-100 font-dmono">Android Studio Developer</div>
+            <h3 className='regular-16 text-stone-100 font-dmono pb-2'>~ Perception Learning Lab, UNIST</h3>
+            <p className='text-justify text-gray-300'>Extend backend features with Kotlin, seamlessly integrating into the Eye Training app. Enhance data management by integrating MongoDB, ensuring efficiency. Conduct rigorous testing to ensure stability across various devices.</p>
             <div className='flex-row space-x-1'>
               <div className="badge badge-accent text-white">Android Studio</div>
               <div className="badge badge-accent text-white">Kotlin</div>
@@ -41,9 +41,9 @@ const Experiences = () => {
             onMouseEnter={() => setHoveredExperience('2')}
             onMouseLeave={() => setHoveredExperience('empty')} >
             <time className="font-mono italic text-white">2024.01 - 2024.02</time>
-            <div className="bold-18 text-stone-200 font-dmono">Software Engineer Intern</div>
-            <h3 className='regular-16 text-stone-200 font-dmono pb-2'>~ Rubick AI</h3>
-            <p className='text-justify text-black'>Developed a landing page from scratch using Next.js, Tailwind CSS, and Typescript for the CarCare project. Incorporated fully responsive design for small to extra large devices. Integrated interactive features and optimized the user experience using React Framer Motion</p>
+            <div className="bold-18 text-stone-100 font-dmono">Software Engineer Intern</div>
+            <h3 className='regular-16 text-stone-100 font-dmono pb-2'>~ Rubick AI</h3>
+            <p className='text-justify text-gray-300'>Developed a landing page from scratch using Next.js, Tailwind CSS, and Typescript for the CarCare project. Incorporated fully responsive design for small to extra large devices. Integrated interactive features and optimized the user experience using React Framer Motion</p>
             <div className='flex-row space-x-1'>
               <div className="badge badge-accent text-white">Next.js</div>
               <div className="badge badge-accent text-white">TypeScript</div>
@@ -61,9 +61,9 @@ const Experiences = () => {
             onMouseEnter={() => setHoveredExperience('3')}
             onMouseLeave={() => setHoveredExperience('empty')}>
             <time className="font-mono italic text-white">2023.01 - 2023.02</time>
-            <div className="bold-18 text-stone-200 font-dmono">Software Engineer Intern</div>
-            <h3 className='regular-16 text-stone-200 font-dmono pb-2'>~ Digital Solutions</h3>
-            <p className='text-justify text-black'>Collaborated designing the “Guyuk” project website using HTML and CSS. Performed Metaverse market analysis and helped finding the niche that is suitable in Mongolia</p>
+            <div className="bold-18 text-stone-100 font-dmono">Software Engineer Intern</div>
+            <h3 className='regular-16 text-stone-100 font-dmono pb-2'>~ Digital Solutions</h3>
+            <p className='text-justify text-gray-300'>Collaborated designing the “Guyuk” project website using HTML and CSS. Performed Metaverse market analysis and helped finding the niche that is suitable in Mongolia</p>
             <div className='flex-row space-x-1'>
               <div className="badge badge-accent text-white">HTML</div>
               <div className="badge badge-accent text-white">CSS</div>

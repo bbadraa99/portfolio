@@ -14,7 +14,7 @@ export default function Home() {
     <>
       {/* className="bg-gradient-to-b from-blue-30 to-white" */}
       <div 
-        className="h-full flex flex-col bg-gradient-to-b from-background-50 via-background-30 to-background-30"
+        className="h-full flex flex-col bg-gradient-to-b from-background-50 to-background-30"
       >
         <Navbar />
         <LeftIcon />
